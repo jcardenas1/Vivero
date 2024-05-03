@@ -1,0 +1,34 @@
+body{
+    background: radial-gradient(#ddd, #fff);
+}
+.home-container{
+    place-content: center;
+    .home-title{
+        color: 	#0086ad;
+        font-size: 4.5rem;
+        font-family: Caveat;
+    }
+    
+    .grid-row{
+        .cards-data{
+            .card{
+                background:#0086ad;
+                transition: transform .1s ease-in-out;
+
+                .card-body{
+                    .card-text{
+                        color:#daf8e3;
+                        font-family: Caveat;
+                    }
+                }
+            }
+
+            .card:active{
+                transform: scale(0.98);
+                box-shadow: none !important;
+            } 
+
+
+        }
+    }
+}

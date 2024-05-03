@@ -1,0 +1,15 @@
+.options-nav{
+    background: #005582;
+    .nav-item{
+        a{
+            color: #efe;
+            font-family: Caveat;
+            font-size: 1.3rem;
+        }
+        
+        .active{
+            background: #0086ad;
+            color:#daf8e3;
+        }
+    }
+}

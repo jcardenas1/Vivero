@@ -1,3 +1,5 @@
 import './nav.css'
 import './home.css'
 import './fonts.css'
+import './productores.css'
+import './finca.css'

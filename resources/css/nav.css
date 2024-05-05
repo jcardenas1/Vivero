@@ -1,5 +1,11 @@
 .options-nav{
     background: #005582;
+    
+    .nav-title{
+        color: #efe;
+        font-family: Caveat;
+        font-size: 3rem;
+    }
     .nav-item{
         a{
             color: #efe;

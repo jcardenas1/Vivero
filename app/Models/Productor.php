@@ -19,9 +19,15 @@ class Productor extends Model
         'apellido',
         'telefono',
         'correo',
+        'created_at',
+        'updated_at'
     ];
 
     public function fincas(){
         return $this->hasMany(Finca::class);
+    }
+
+    public function viveros(){
+        return $this->hasMany(Vivero::class);
     }
 }

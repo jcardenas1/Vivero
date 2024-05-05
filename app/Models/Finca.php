@@ -14,6 +14,7 @@ class Finca extends Model
     */
     protected $table = "fincas";
     protected $fillable = [
+        'nombre',
         'numero_catastro',
         'municipio',
         'productor_id'

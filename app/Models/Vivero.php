@@ -14,13 +14,19 @@ class Vivero extends Model
     */
     protected $table = "viveros";
     protected $fillable = [
+        'nombre',
         'codigo',
         'tipo_cultivo',
-        'finca_id'
+        'finca_id',
+        'productor_id'
     ];
 
     public function finca() {
         return $this->belongsTo(Finca::class);
+    }
+
+    public function productor() {
+        return $this->belongsTo(Productor::class);
     }
 
     public function labores()  {

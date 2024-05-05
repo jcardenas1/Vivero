@@ -1,0 +1,21 @@
+.finca-container{
+    .grid-row{
+        .cards-data{
+            .card{
+                transition: transform .1s ease-in-out;
+
+                .card-body{
+                    .card-text{
+                        color:#000;
+                        font-size: 1.2rem;
+                        font-family: Caveat;
+
+                        a{
+                            color: #005582;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -15,6 +15,7 @@ return new class extends Migration
 
         Schema::create('fincas', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre')->nullable(false)->unique();
             $table->string('numero_catastro')->nullable(false)->unique();
             $table->string('municipio')->nullable(false);
             $table->unsignedBigInteger('productor_id');
